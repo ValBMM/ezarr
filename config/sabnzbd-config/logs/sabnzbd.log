@@ -1,0 +1,497 @@
+2024-03-20 11:20:24,247::INFO::[SABnzbd:1144] --------------------------------
+2024-03-20 11:20:24,248::INFO::[SABnzbd:1145] SABnzbd.py-4.2.3
+2024-03-20 11:20:24,250::INFO::[SABnzbd:1155] Commit = e7e06dea419a03bfe179af64b7a69398f652a7b9
+2024-03-20 11:20:24,252::INFO::[SABnzbd:1157] Full executable path = /app/sabnzbd/SABnzbd.py
+2024-03-20 11:20:24,253::INFO::[SABnzbd:1158] Arguments = "/app/sabnzbd/SABnzbd.py" "--config-file" "/config" "--server" "::"
+2024-03-20 11:20:24,254::INFO::[SABnzbd:1159] Python-version = 3.11.8 (main, Feb 19 2024, 17:01:17) [GCC 13.2.1 20231014]
+2024-03-20 11:20:24,256::INFO::[SABnzbd:1160] Dockerized = True
+2024-03-20 11:20:24,266::INFO::[SABnzbd:1161] CPU architecture = aarch64
+2024-03-20 11:20:24,283::INFO::[SABnzbd:1164] Platform = posix - Linux-5.15.0-1048-raspi-aarch64-with
+2024-03-20 11:20:24,355::INFO::[SABnzbd:1170] Preferred encoding = UTF-8
+2024-03-20 11:20:24,356::INFO::[SABnzbd:1192] SSL version = OpenSSL 3.1.4 24 Oct 2023
+2024-03-20 11:20:24,360::INFO::[SABnzbd:1201] Certifi version = 2024.02.02
+2024-03-20 11:20:24,361::INFO::[SABnzbd:1202] Loaded additional certificates from /lsiopy/lib/python3.11/site-packages/certifi/cacert.pem
+2024-03-20 11:20:24,361::INFO::[SABnzbd:1212] Using INI file /config/sabnzbd.ini
+2024-03-20 11:20:24,362::INFO::[filesystem:746] Creating directories: /config/Downloads/incomplete
+2024-03-20 11:20:24,363::INFO::[filesystem:746] Creating directories: /config/Downloads/complete
+2024-03-20 11:20:24,366::INFO::[filesystem:1159] [N/A] /config/admin/totals10.sab missing
+2024-03-20 11:20:25,107::INFO::[postproc:143] Loading postproc queue
+2024-03-20 11:20:25,108::INFO::[filesystem:1159] [N/A] /config/admin/postproc2.sab missing
+2024-03-20 11:20:25,112::INFO::[filesystem:1159] [N/A] /config/admin/watched_data2.sab missing
+2024-03-20 11:20:25,153::INFO::[filesystem:1159] [N/A] /config/admin/rss_data.sab missing
+2024-03-20 11:20:25,154::INFO::[scheduler:190] Scheduling RSS interval task every 60 min (delay=59)
+2024-03-20 11:20:25,155::INFO::[scheduler:200] Scheduling version check in 10 minutes and daily at 11:33
+2024-03-20 11:20:25,156::INFO::[scheduler:225] Setting schedule for midnight BPS reset
+2024-03-20 11:20:25,157::INFO::[scheduler:234] Setting schedule for midnight server expiration check
+2024-03-20 11:20:25,158::INFO::[scheduler:243] Setting schedule for server quota check
+2024-03-20 11:20:25,158::INFO::[filesystem:1159] [N/A] /config/admin/queue10.sab missing
+2024-03-20 11:20:25,163::INFO::[config:998] Writing settings to INI file /config/sabnzbd.ini
+2024-03-20 11:20:25,197::INFO::[__init__:323] All processes started
+2024-03-20 11:20:25,199::INFO::[SABnzbd:338] Template location for Glitter is /app/sabnzbd/interfaces/Glitter
+2024-03-20 11:20:25,200::INFO::[SABnzbd:338] Template location for Config is /app/sabnzbd/interfaces/Config
+2024-03-20 11:20:25,206::INFO::[misc:1230] [N/A] Running external command: ['/usr/bin/unrar']
+2024-03-20 11:20:25,214::INFO::[misc:1230] [N/A] Running external command: ['/usr/bin/7zz']
+2024-03-20 11:20:25,244::INFO::[misc:1230] [N/A] Running external command: ['/usr/local/bin/par2', '-V']
+2024-03-20 11:20:25,272::INFO::[SABnzbd:423] SABCTools module (v8.1.0)... found!
+2024-03-20 11:20:25,272::INFO::[SABnzbd:424] SABCTools module is using SIMD set: NEON
+2024-03-20 11:20:25,273::INFO::[SABnzbd:425] SABCTools module is linked to OpenSSL: True
+2024-03-20 11:20:25,274::INFO::[SABnzbd:445] Cryptography module (v41.0.7)... found!
+2024-03-20 11:20:25,291::INFO::[SABnzbd:451] par2 binary... found (/usr/local/bin/par2)
+2024-03-20 11:20:25,292::INFO::[SABnzbd:458] UNRAR binary... found (/usr/bin/unrar)
+2024-03-20 11:20:25,292::INFO::[SABnzbd:466] UNRAR binary version 7.00
+2024-03-20 11:20:25,293::INFO::[SABnzbd:473] 7za binary... found (/usr/bin/7zz)
+2024-03-20 11:20:25,293::INFO::[SABnzbd:475] 7za binary version 23.01
+2024-03-20 11:20:25,294::INFO::[SABnzbd:481] nice binary... found (/bin/nice)
+2024-03-20 11:20:25,294::INFO::[SABnzbd:485] ionice binary... found (/bin/ionice)
+2024-03-20 11:20:25,296::INFO::[SABnzbd:1399] Starting web-interface on :::8080
+2024-03-20 11:20:25,297::INFO::[_cplogging:213] [20/Mar/2024:11:20:25] ENGINE Bus STARTING
+2024-03-20 11:20:30,443::INFO::[_cplogging:213] [20/Mar/2024:11:20:30] ENGINE Serving on http://:::8080
+2024-03-20 11:20:30,444::INFO::[_cplogging:213] [20/Mar/2024:11:20:30] ENGINE Bus STARTED
+2024-03-20 11:20:30,445::INFO::[SABnzbd:1444] Starting SABnzbd.py-4.2.3
+2024-03-20 11:20:30,482::INFO::[dirscanner:111] Dirscanner starting up
+2024-03-20 11:20:30,484::INFO::[panic:239] Launching browser with http://127.0.0.1:8080/sabnzbd
+2024-03-20 11:20:30,543::INFO::[notifier:142] Sending notification: SABnzbd - SABnzbd 4.2.3 started (type=startup, job_cat=None)
+2024-03-20 11:20:30,544::INFO::[zconfig:61] No bonjour/zeroconf support installed
+2024-03-20 11:20:30,504::INFO::[database:576] Scheduled history purge
+2024-03-20 11:20:30,550::INFO::[ssdp:108] Serving SSDP on 172.18.0.12 as SABnzbd
+2024-03-20 11:21:00,565::INFO::[config:998] Writing settings to INI file /config/sabnzbd.ini
+2024-03-20 12:00:33,136::INFO::[notifier:142] Sending notification: Warning - Signal 15 caught, saving and exiting... (type=warning, job_cat=None)
+2024-03-20 12:00:33,135::WARNING::[__init__:199] Signal 15 caught, saving and exiting...
+2024-03-20 12:00:33,140::INFO::[__init__:436] [N/A] Performing SABnzbd shutdown
+2024-03-20 12:00:33,172::INFO::[__init__:353] SABnzbd shutting down...
+2024-03-20 12:00:33,173::INFO::[ssdp:102] Stopping SSDP
+2024-03-20 12:00:33,181::INFO::[directunpacker:561] Aborting all DirectUnpackers
+2024-03-20 12:00:33,200::INFO::[notifier:142] Sending notification: SABnzbd - Shutting down (type=startup, job_cat=None)
+2024-03-20 12:00:33,201::INFO::[downloader:640] Shutting down
+2024-03-20 12:00:33,215::INFO::[nzbqueue:230] Saving queue
+2024-03-20 12:00:33,218::INFO::[postproc:138] Saving postproc queue
+2024-03-20 12:00:33,227::INFO::[__init__:422] All processes stopped
+2024-03-20 12:00:33,228::INFO::[_cplogging:213] [20/Mar/2024:12:00:33] ENGINE Bus STOPPING
+2024-03-20 12:00:33,479::INFO::[_cplogging:213] [20/Mar/2024:12:00:33] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('::', 8080)) shut down
+2024-03-20 12:00:33,481::INFO::[_cplogging:213] [20/Mar/2024:12:00:33] ENGINE Bus STOPPED
+2024-03-20 12:00:33,482::INFO::[_cplogging:213] [20/Mar/2024:12:00:33] ENGINE Bus EXITING
+2024-03-20 12:00:33,483::INFO::[_cplogging:213] [20/Mar/2024:12:00:33] ENGINE Bus EXITED
+2024-03-20 12:00:33,483::INFO::[notifier:142] Sending notification: SABnzbd - SABnzbd shutdown finished (type=startup, job_cat=None)
+2024-03-20 12:00:33,515::INFO::[SABnzbd:1583] Leaving SABnzbd
+2024-03-20 12:01:16,574::INFO::[SABnzbd:1144] --------------------------------
+2024-03-20 12:01:16,578::INFO::[SABnzbd:1145] SABnzbd.py-4.2.3
+2024-03-20 12:01:16,580::INFO::[SABnzbd:1155] Commit = e7e06dea419a03bfe179af64b7a69398f652a7b9
+2024-03-20 12:01:16,590::INFO::[SABnzbd:1157] Full executable path = /app/sabnzbd/SABnzbd.py
+2024-03-20 12:01:16,592::INFO::[SABnzbd:1158] Arguments = "/app/sabnzbd/SABnzbd.py" "--config-file" "/config" "--server" "::"
+2024-03-20 12:01:16,593::INFO::[SABnzbd:1159] Python-version = 3.11.8 (main, Feb 19 2024, 17:01:17) [GCC 13.2.1 20231014]
+2024-03-20 12:01:16,595::INFO::[SABnzbd:1160] Dockerized = True
+2024-03-20 12:01:16,606::INFO::[SABnzbd:1161] CPU architecture = aarch64
+2024-03-20 12:01:16,646::INFO::[SABnzbd:1164] Platform = posix - Linux-5.15.0-1048-raspi-aarch64-with
+2024-03-20 12:01:16,647::INFO::[SABnzbd:1170] Preferred encoding = UTF-8
+2024-03-20 12:01:16,649::INFO::[SABnzbd:1192] SSL version = OpenSSL 3.1.4 24 Oct 2023
+2024-03-20 12:01:16,655::INFO::[SABnzbd:1201] Certifi version = 2024.02.02
+2024-03-20 12:01:16,665::INFO::[SABnzbd:1202] Loaded additional certificates from /lsiopy/lib/python3.11/site-packages/certifi/cacert.pem
+2024-03-20 12:01:16,667::INFO::[SABnzbd:1212] Using INI file /config/sabnzbd.ini
+2024-03-20 12:01:16,672::INFO::[postproc:143] Loading postproc queue
+2024-03-20 12:01:16,686::INFO::[scheduler:190] Scheduling RSS interval task every 60 min (delay=57)
+2024-03-20 12:01:16,688::INFO::[scheduler:200] Scheduling version check in 10 minutes and daily at 1:47
+2024-03-20 12:01:16,692::INFO::[scheduler:225] Setting schedule for midnight BPS reset
+2024-03-20 12:01:16,696::INFO::[scheduler:234] Setting schedule for midnight server expiration check
+2024-03-20 12:01:16,699::INFO::[scheduler:243] Setting schedule for server quota check
+2024-03-20 12:01:16,707::INFO::[__init__:323] All processes started
+2024-03-20 12:01:16,711::INFO::[SABnzbd:338] Template location for Glitter is /app/sabnzbd/interfaces/Glitter
+2024-03-20 12:01:16,722::INFO::[SABnzbd:338] Template location for Config is /app/sabnzbd/interfaces/Config
+2024-03-20 12:01:16,738::INFO::[misc:1230] [N/A] Running external command: ['/usr/bin/unrar']
+2024-03-20 12:01:16,758::INFO::[misc:1230] [N/A] Running external command: ['/usr/bin/7zz']
+2024-03-20 12:01:16,782::INFO::[misc:1230] [N/A] Running external command: ['/usr/local/bin/par2', '-V']
+2024-03-20 12:01:16,802::INFO::[SABnzbd:423] SABCTools module (v8.1.0)... found!
+2024-03-20 12:01:16,805::INFO::[SABnzbd:424] SABCTools module is using SIMD set: NEON
+2024-03-20 12:01:16,809::INFO::[SABnzbd:425] SABCTools module is linked to OpenSSL: True
+2024-03-20 12:01:16,813::INFO::[SABnzbd:445] Cryptography module (v41.0.7)... found!
+2024-03-20 12:01:16,817::INFO::[SABnzbd:451] par2 binary... found (/usr/local/bin/par2)
+2024-03-20 12:01:16,821::INFO::[SABnzbd:458] UNRAR binary... found (/usr/bin/unrar)
+2024-03-20 12:01:16,824::INFO::[SABnzbd:466] UNRAR binary version 7.00
+2024-03-20 12:01:16,827::INFO::[SABnzbd:473] 7za binary... found (/usr/bin/7zz)
+2024-03-20 12:01:16,829::INFO::[SABnzbd:475] 7za binary version 23.01
+2024-03-20 12:01:16,835::INFO::[SABnzbd:481] nice binary... found (/bin/nice)
+2024-03-20 12:01:16,838::INFO::[SABnzbd:485] ionice binary... found (/bin/ionice)
+2024-03-20 12:01:16,845::INFO::[SABnzbd:1399] Starting web-interface on :::8080
+2024-03-20 12:01:16,866::INFO::[_cplogging:213] [20/Mar/2024:12:01:16] ENGINE Bus STARTING
+2024-03-20 12:01:22,047::INFO::[_cplogging:213] [20/Mar/2024:12:01:22] ENGINE Serving on http://:::8080
+2024-03-20 12:01:22,048::INFO::[_cplogging:213] [20/Mar/2024:12:01:22] ENGINE Bus STARTED
+2024-03-20 12:01:22,049::INFO::[SABnzbd:1444] Starting SABnzbd.py-4.2.3
+2024-03-20 12:01:22,058::INFO::[dirscanner:111] Dirscanner starting up
+2024-03-20 12:01:22,076::INFO::[panic:239] Launching browser with http://127.0.0.1:8080/sabnzbd
+2024-03-20 12:01:22,092::INFO::[notifier:142] Sending notification: SABnzbd - SABnzbd 4.2.3 started (type=startup, job_cat=None)
+2024-03-20 12:01:22,114::INFO::[zconfig:61] No bonjour/zeroconf support installed
+2024-03-20 12:01:22,130::INFO::[ssdp:108] Serving SSDP on 172.18.0.7 as SABnzbd
+2024-03-20 12:01:22,173::INFO::[database:576] Scheduled history purge
+2024-03-20 13:03:10,834::INFO::[notifier:142] Sending notification: Warning - Signal 15 caught, saving and exiting... (type=warning, job_cat=None)
+2024-03-20 13:03:10,833::WARNING::[__init__:199] Signal 15 caught, saving and exiting...
+2024-03-20 13:03:10,835::INFO::[__init__:436] [N/A] Performing SABnzbd shutdown
+2024-03-20 13:03:10,836::INFO::[__init__:353] SABnzbd shutting down...
+2024-03-20 13:03:10,836::INFO::[ssdp:102] Stopping SSDP
+2024-03-20 13:03:10,838::INFO::[directunpacker:561] Aborting all DirectUnpackers
+2024-03-20 13:03:10,844::INFO::[notifier:142] Sending notification: SABnzbd - Shutting down (type=startup, job_cat=None)
+2024-03-20 13:03:10,848::INFO::[downloader:640] Shutting down
+2024-03-20 13:03:10,874::INFO::[nzbqueue:230] Saving queue
+2024-03-20 13:03:10,877::INFO::[postproc:138] Saving postproc queue
+2024-03-20 13:03:10,879::INFO::[__init__:422] All processes stopped
+2024-03-20 13:03:10,896::INFO::[_cplogging:213] [20/Mar/2024:13:03:10] ENGINE Bus STOPPING
+2024-03-20 13:03:11,326::INFO::[_cplogging:213] [20/Mar/2024:13:03:11] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('::', 8080)) shut down
+2024-03-20 13:03:11,327::INFO::[_cplogging:213] [20/Mar/2024:13:03:11] ENGINE Bus STOPPED
+2024-03-20 13:03:11,328::INFO::[_cplogging:213] [20/Mar/2024:13:03:11] ENGINE Bus EXITING
+2024-03-20 13:03:11,328::INFO::[_cplogging:213] [20/Mar/2024:13:03:11] ENGINE Bus EXITED
+2024-03-20 13:03:11,329::INFO::[notifier:142] Sending notification: SABnzbd - SABnzbd shutdown finished (type=startup, job_cat=None)
+2024-03-20 13:03:11,331::INFO::[SABnzbd:1583] Leaving SABnzbd
+2024-03-20 13:04:30,310::INFO::[SABnzbd:1144] --------------------------------
+2024-03-20 13:04:30,312::INFO::[SABnzbd:1145] SABnzbd.py-4.2.3
+2024-03-20 13:04:30,314::INFO::[SABnzbd:1155] Commit = e7e06dea419a03bfe179af64b7a69398f652a7b9
+2024-03-20 13:04:30,317::INFO::[SABnzbd:1157] Full executable path = /app/sabnzbd/SABnzbd.py
+2024-03-20 13:04:30,320::INFO::[SABnzbd:1158] Arguments = "/app/sabnzbd/SABnzbd.py" "--config-file" "/config" "--server" "::"
+2024-03-20 13:04:30,333::INFO::[SABnzbd:1159] Python-version = 3.11.8 (main, Feb 19 2024, 17:01:17) [GCC 13.2.1 20231014]
+2024-03-20 13:04:30,336::INFO::[SABnzbd:1160] Dockerized = True
+2024-03-20 13:04:30,339::INFO::[SABnzbd:1161] CPU architecture = aarch64
+2024-03-20 13:04:30,370::INFO::[SABnzbd:1164] Platform = posix - Linux-5.15.0-1048-raspi-aarch64-with
+2024-03-20 13:04:30,373::INFO::[SABnzbd:1170] Preferred encoding = UTF-8
+2024-03-20 13:04:30,376::INFO::[SABnzbd:1192] SSL version = OpenSSL 3.1.4 24 Oct 2023
+2024-03-20 13:04:30,385::INFO::[SABnzbd:1201] Certifi version = 2024.02.02
+2024-03-20 13:04:30,398::INFO::[SABnzbd:1202] Loaded additional certificates from /lsiopy/lib/python3.11/site-packages/certifi/cacert.pem
+2024-03-20 13:04:30,400::INFO::[SABnzbd:1212] Using INI file /config/sabnzbd.ini
+2024-03-20 13:04:30,419::INFO::[postproc:143] Loading postproc queue
+2024-03-20 13:04:30,425::INFO::[scheduler:190] Scheduling RSS interval task every 60 min (delay=11)
+2024-03-20 13:04:30,434::INFO::[scheduler:200] Scheduling version check in 10 minutes and daily at 7:16
+2024-03-20 13:04:30,437::INFO::[scheduler:225] Setting schedule for midnight BPS reset
+2024-03-20 13:04:30,441::INFO::[scheduler:234] Setting schedule for midnight server expiration check
+2024-03-20 13:04:30,458::INFO::[scheduler:243] Setting schedule for server quota check
+2024-03-20 13:04:30,470::INFO::[__init__:323] All processes started
+2024-03-20 13:04:30,474::INFO::[SABnzbd:338] Template location for Glitter is /app/sabnzbd/interfaces/Glitter
+2024-03-20 13:04:30,494::INFO::[SABnzbd:338] Template location for Config is /app/sabnzbd/interfaces/Config
+2024-03-20 13:04:30,520::INFO::[misc:1230] [N/A] Running external command: ['/usr/bin/unrar']
+2024-03-20 13:04:30,579::INFO::[misc:1230] [N/A] Running external command: ['/usr/bin/7zz']
+2024-03-20 13:04:30,618::INFO::[misc:1230] [N/A] Running external command: ['/usr/local/bin/par2', '-V']
+2024-03-20 13:04:30,650::INFO::[SABnzbd:423] SABCTools module (v8.1.0)... found!
+2024-03-20 13:04:30,654::INFO::[SABnzbd:424] SABCTools module is using SIMD set: NEON
+2024-03-20 13:04:30,658::INFO::[SABnzbd:425] SABCTools module is linked to OpenSSL: True
+2024-03-20 13:04:30,661::INFO::[SABnzbd:445] Cryptography module (v41.0.7)... found!
+2024-03-20 13:04:30,669::INFO::[SABnzbd:451] par2 binary... found (/usr/local/bin/par2)
+2024-03-20 13:04:30,673::INFO::[SABnzbd:458] UNRAR binary... found (/usr/bin/unrar)
+2024-03-20 13:04:30,676::INFO::[SABnzbd:466] UNRAR binary version 7.00
+2024-03-20 13:04:30,682::INFO::[SABnzbd:473] 7za binary... found (/usr/bin/7zz)
+2024-03-20 13:04:30,693::INFO::[SABnzbd:475] 7za binary version 23.01
+2024-03-20 13:04:30,694::INFO::[SABnzbd:481] nice binary... found (/bin/nice)
+2024-03-20 13:04:30,695::INFO::[SABnzbd:485] ionice binary... found (/bin/ionice)
+2024-03-20 13:04:30,712::INFO::[SABnzbd:1399] Starting web-interface on :::8080
+2024-03-20 13:04:30,713::INFO::[_cplogging:213] [20/Mar/2024:13:04:30] ENGINE Bus STARTING
+2024-03-20 13:04:35,928::INFO::[_cplogging:213] [20/Mar/2024:13:04:35] ENGINE Serving on http://:::8080
+2024-03-20 13:04:35,929::INFO::[_cplogging:213] [20/Mar/2024:13:04:35] ENGINE Bus STARTED
+2024-03-20 13:04:35,931::INFO::[SABnzbd:1444] Starting SABnzbd.py-4.2.3
+2024-03-20 13:04:35,974::INFO::[dirscanner:111] Dirscanner starting up
+2024-03-20 13:04:35,988::INFO::[panic:239] Launching browser with http://127.0.0.1:8080/sabnzbd
+2024-03-20 13:04:36,001::INFO::[notifier:142] Sending notification: SABnzbd - SABnzbd 4.2.3 started (type=startup, job_cat=None)
+2024-03-20 13:04:36,013::INFO::[zconfig:61] No bonjour/zeroconf support installed
+2024-03-20 13:04:36,023::INFO::[ssdp:108] Serving SSDP on 172.18.0.12 as SABnzbd
+2024-03-20 13:04:36,101::INFO::[database:576] Scheduled history purge
+2024-03-20 13:09:36,153::INFO::[notifier:142] Sending notification: Warning - Signal 15 caught, saving and exiting... (type=warning, job_cat=None)
+2024-03-20 13:09:36,153::WARNING::[__init__:199] Signal 15 caught, saving and exiting...
+2024-03-20 13:09:36,156::INFO::[__init__:436] [N/A] Performing SABnzbd shutdown
+2024-03-20 13:09:36,157::INFO::[__init__:353] SABnzbd shutting down...
+2024-03-20 13:09:36,158::INFO::[ssdp:102] Stopping SSDP
+2024-03-20 13:09:36,159::INFO::[directunpacker:561] Aborting all DirectUnpackers
+2024-03-20 13:09:36,162::INFO::[notifier:142] Sending notification: SABnzbd - Shutting down (type=startup, job_cat=None)
+2024-03-20 13:09:36,163::INFO::[downloader:640] Shutting down
+2024-03-20 13:09:36,164::INFO::[nzbqueue:230] Saving queue
+2024-03-20 13:09:36,167::INFO::[postproc:138] Saving postproc queue
+2024-03-20 13:09:36,169::INFO::[__init__:422] All processes stopped
+2024-03-20 13:09:36,170::INFO::[_cplogging:213] [20/Mar/2024:13:09:36] ENGINE Bus STOPPING
+2024-03-20 13:09:36,447::INFO::[_cplogging:213] [20/Mar/2024:13:09:36] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('::', 8080)) shut down
+2024-03-20 13:09:36,448::INFO::[_cplogging:213] [20/Mar/2024:13:09:36] ENGINE Bus STOPPED
+2024-03-20 13:09:36,449::INFO::[_cplogging:213] [20/Mar/2024:13:09:36] ENGINE Bus EXITING
+2024-03-20 13:09:36,450::INFO::[_cplogging:213] [20/Mar/2024:13:09:36] ENGINE Bus EXITED
+2024-03-20 13:09:36,451::INFO::[notifier:142] Sending notification: SABnzbd - SABnzbd shutdown finished (type=startup, job_cat=None)
+2024-03-20 13:09:36,452::INFO::[SABnzbd:1583] Leaving SABnzbd
+2024-03-20 13:09:45,353::INFO::[SABnzbd:1144] --------------------------------
+2024-03-20 13:09:45,354::INFO::[SABnzbd:1145] SABnzbd.py-4.2.3
+2024-03-20 13:09:45,354::INFO::[SABnzbd:1155] Commit = e7e06dea419a03bfe179af64b7a69398f652a7b9
+2024-03-20 13:09:45,356::INFO::[SABnzbd:1157] Full executable path = /app/sabnzbd/SABnzbd.py
+2024-03-20 13:09:45,357::INFO::[SABnzbd:1158] Arguments = "/app/sabnzbd/SABnzbd.py" "--config-file" "/config" "--server" "::"
+2024-03-20 13:09:45,358::INFO::[SABnzbd:1159] Python-version = 3.11.8 (main, Feb 19 2024, 17:01:17) [GCC 13.2.1 20231014]
+2024-03-20 13:09:45,359::INFO::[SABnzbd:1160] Dockerized = True
+2024-03-20 13:09:45,360::INFO::[SABnzbd:1161] CPU architecture = aarch64
+2024-03-20 13:09:45,373::INFO::[SABnzbd:1164] Platform = posix - Linux-5.15.0-1048-raspi-aarch64-with
+2024-03-20 13:09:45,374::INFO::[SABnzbd:1170] Preferred encoding = UTF-8
+2024-03-20 13:09:45,374::INFO::[SABnzbd:1192] SSL version = OpenSSL 3.1.4 24 Oct 2023
+2024-03-20 13:09:45,379::INFO::[SABnzbd:1201] Certifi version = 2024.02.02
+2024-03-20 13:09:45,380::INFO::[SABnzbd:1202] Loaded additional certificates from /lsiopy/lib/python3.11/site-packages/certifi/cacert.pem
+2024-03-20 13:09:45,381::INFO::[SABnzbd:1212] Using INI file /config/sabnzbd.ini
+2024-03-20 13:09:45,385::INFO::[postproc:143] Loading postproc queue
+2024-03-20 13:09:45,387::INFO::[scheduler:190] Scheduling RSS interval task every 60 min (delay=14)
+2024-03-20 13:09:45,388::INFO::[scheduler:200] Scheduling version check in 10 minutes and daily at 10:11
+2024-03-20 13:09:45,389::INFO::[scheduler:225] Setting schedule for midnight BPS reset
+2024-03-20 13:09:45,390::INFO::[scheduler:234] Setting schedule for midnight server expiration check
+2024-03-20 13:09:45,391::INFO::[scheduler:243] Setting schedule for server quota check
+2024-03-20 13:09:45,393::INFO::[__init__:323] All processes started
+2024-03-20 13:09:45,394::INFO::[SABnzbd:338] Template location for Glitter is /app/sabnzbd/interfaces/Glitter
+2024-03-20 13:09:45,396::INFO::[SABnzbd:338] Template location for Config is /app/sabnzbd/interfaces/Config
+2024-03-20 13:09:45,400::INFO::[misc:1230] [N/A] Running external command: ['/usr/bin/unrar']
+2024-03-20 13:09:45,407::INFO::[misc:1230] [N/A] Running external command: ['/usr/bin/7zz']
+2024-03-20 13:09:45,416::INFO::[misc:1230] [N/A] Running external command: ['/usr/local/bin/par2', '-V']
+2024-03-20 13:09:45,422::INFO::[SABnzbd:423] SABCTools module (v8.1.0)... found!
+2024-03-20 13:09:45,423::INFO::[SABnzbd:424] SABCTools module is using SIMD set: NEON
+2024-03-20 13:09:45,424::INFO::[SABnzbd:425] SABCTools module is linked to OpenSSL: True
+2024-03-20 13:09:45,425::INFO::[SABnzbd:445] Cryptography module (v41.0.7)... found!
+2024-03-20 13:09:45,426::INFO::[SABnzbd:451] par2 binary... found (/usr/local/bin/par2)
+2024-03-20 13:09:45,427::INFO::[SABnzbd:458] UNRAR binary... found (/usr/bin/unrar)
+2024-03-20 13:09:45,427::INFO::[SABnzbd:466] UNRAR binary version 7.00
+2024-03-20 13:09:45,428::INFO::[SABnzbd:473] 7za binary... found (/usr/bin/7zz)
+2024-03-20 13:09:45,429::INFO::[SABnzbd:475] 7za binary version 23.01
+2024-03-20 13:09:45,430::INFO::[SABnzbd:481] nice binary... found (/bin/nice)
+2024-03-20 13:09:45,430::INFO::[SABnzbd:485] ionice binary... found (/bin/ionice)
+2024-03-20 13:09:45,433::INFO::[SABnzbd:1399] Starting web-interface on :::8080
+2024-03-20 13:09:45,434::INFO::[_cplogging:213] [20/Mar/2024:13:09:45] ENGINE Bus STARTING
+2024-03-20 13:09:50,578::INFO::[_cplogging:213] [20/Mar/2024:13:09:50] ENGINE Serving on http://:::8080
+2024-03-20 13:09:50,579::INFO::[_cplogging:213] [20/Mar/2024:13:09:50] ENGINE Bus STARTED
+2024-03-20 13:09:50,581::INFO::[SABnzbd:1444] Starting SABnzbd.py-4.2.3
+2024-03-20 13:09:50,588::INFO::[dirscanner:111] Dirscanner starting up
+2024-03-20 13:09:50,589::INFO::[panic:239] Launching browser with http://127.0.0.1:8080/sabnzbd
+2024-03-20 13:09:50,596::INFO::[notifier:142] Sending notification: SABnzbd - SABnzbd 4.2.3 started (type=startup, job_cat=None)
+2024-03-20 13:09:50,601::INFO::[database:576] Scheduled history purge
+2024-03-20 13:09:50,603::INFO::[zconfig:61] No bonjour/zeroconf support installed
+2024-03-20 13:09:50,605::INFO::[ssdp:108] Serving SSDP on 172.18.0.12 as SABnzbd
+2024-03-20 13:10:42,398::INFO::[notifier:142] Sending notification: Warning - Signal 15 caught, saving and exiting... (type=warning, job_cat=None)
+2024-03-20 13:10:42,398::WARNING::[__init__:199] Signal 15 caught, saving and exiting...
+2024-03-20 13:10:42,414::INFO::[__init__:436] [N/A] Performing SABnzbd shutdown
+2024-03-20 13:10:42,438::INFO::[__init__:353] SABnzbd shutting down...
+2024-03-20 13:10:42,440::INFO::[ssdp:102] Stopping SSDP
+2024-03-20 13:10:42,447::INFO::[directunpacker:561] Aborting all DirectUnpackers
+2024-03-20 13:10:42,452::INFO::[notifier:142] Sending notification: SABnzbd - Shutting down (type=startup, job_cat=None)
+2024-03-20 13:10:42,456::INFO::[downloader:640] Shutting down
+2024-03-20 13:10:42,461::INFO::[nzbqueue:230] Saving queue
+2024-03-20 13:10:42,468::INFO::[postproc:138] Saving postproc queue
+2024-03-20 13:10:42,477::INFO::[__init__:422] All processes stopped
+2024-03-20 13:10:42,480::INFO::[_cplogging:213] [20/Mar/2024:13:10:42] ENGINE Bus STOPPING
+2024-03-20 13:10:42,930::INFO::[_cplogging:213] [20/Mar/2024:13:10:42] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('::', 8080)) shut down
+2024-03-20 13:10:42,932::INFO::[_cplogging:213] [20/Mar/2024:13:10:42] ENGINE Bus STOPPED
+2024-03-20 13:10:42,932::INFO::[_cplogging:213] [20/Mar/2024:13:10:42] ENGINE Bus EXITING
+2024-03-20 13:10:42,933::INFO::[_cplogging:213] [20/Mar/2024:13:10:42] ENGINE Bus EXITED
+2024-03-20 13:10:42,934::INFO::[notifier:142] Sending notification: SABnzbd - SABnzbd shutdown finished (type=startup, job_cat=None)
+2024-03-20 13:10:42,935::INFO::[SABnzbd:1583] Leaving SABnzbd
+2024-03-20 13:11:47,320::INFO::[SABnzbd:1144] --------------------------------
+2024-03-20 13:11:47,329::INFO::[SABnzbd:1145] SABnzbd.py-4.2.3
+2024-03-20 13:11:47,338::INFO::[SABnzbd:1155] Commit = e7e06dea419a03bfe179af64b7a69398f652a7b9
+2024-03-20 13:11:47,342::INFO::[SABnzbd:1157] Full executable path = /app/sabnzbd/SABnzbd.py
+2024-03-20 13:11:47,348::INFO::[SABnzbd:1158] Arguments = "/app/sabnzbd/SABnzbd.py" "--config-file" "/config" "--server" "::"
+2024-03-20 13:11:47,357::INFO::[SABnzbd:1159] Python-version = 3.11.8 (main, Feb 19 2024, 17:01:17) [GCC 13.2.1 20231014]
+2024-03-20 13:11:47,361::INFO::[SABnzbd:1160] Dockerized = True
+2024-03-20 13:11:47,365::INFO::[SABnzbd:1161] CPU architecture = aarch64
+2024-03-20 13:11:47,414::INFO::[SABnzbd:1164] Platform = posix - Linux-5.15.0-1048-raspi-aarch64-with
+2024-03-20 13:11:47,433::INFO::[SABnzbd:1170] Preferred encoding = UTF-8
+2024-03-20 13:11:47,436::INFO::[SABnzbd:1192] SSL version = OpenSSL 3.1.4 24 Oct 2023
+2024-03-20 13:11:47,444::INFO::[SABnzbd:1201] Certifi version = 2024.02.02
+2024-03-20 13:11:47,458::INFO::[SABnzbd:1202] Loaded additional certificates from /lsiopy/lib/python3.11/site-packages/certifi/cacert.pem
+2024-03-20 13:11:47,465::INFO::[SABnzbd:1212] Using INI file /config/sabnzbd.ini
+2024-03-20 13:11:47,492::INFO::[postproc:143] Loading postproc queue
+2024-03-20 13:11:47,511::INFO::[scheduler:190] Scheduling RSS interval task every 60 min (delay=12)
+2024-03-20 13:11:47,530::INFO::[scheduler:200] Scheduling version check in 10 minutes and daily at 19:10
+2024-03-20 13:11:47,546::INFO::[scheduler:225] Setting schedule for midnight BPS reset
+2024-03-20 13:11:47,554::INFO::[scheduler:234] Setting schedule for midnight server expiration check
+2024-03-20 13:11:47,570::INFO::[scheduler:243] Setting schedule for server quota check
+2024-03-20 13:11:47,578::INFO::[__init__:323] All processes started
+2024-03-20 13:11:47,583::INFO::[SABnzbd:338] Template location for Glitter is /app/sabnzbd/interfaces/Glitter
+2024-03-20 13:11:47,602::INFO::[SABnzbd:338] Template location for Config is /app/sabnzbd/interfaces/Config
+2024-03-20 13:11:47,608::INFO::[misc:1230] [N/A] Running external command: ['/usr/bin/unrar']
+2024-03-20 13:11:47,634::INFO::[misc:1230] [N/A] Running external command: ['/usr/bin/7zz']
+2024-03-20 13:11:47,674::INFO::[misc:1230] [N/A] Running external command: ['/usr/local/bin/par2', '-V']
+2024-03-20 13:11:47,706::INFO::[SABnzbd:423] SABCTools module (v8.1.0)... found!
+2024-03-20 13:11:47,721::INFO::[SABnzbd:424] SABCTools module is using SIMD set: NEON
+2024-03-20 13:11:47,733::INFO::[SABnzbd:425] SABCTools module is linked to OpenSSL: True
+2024-03-20 13:11:47,741::INFO::[SABnzbd:445] Cryptography module (v41.0.7)... found!
+2024-03-20 13:11:47,762::INFO::[SABnzbd:451] par2 binary... found (/usr/local/bin/par2)
+2024-03-20 13:11:47,774::INFO::[SABnzbd:458] UNRAR binary... found (/usr/bin/unrar)
+2024-03-20 13:11:47,786::INFO::[SABnzbd:466] UNRAR binary version 7.00
+2024-03-20 13:11:47,797::INFO::[SABnzbd:473] 7za binary... found (/usr/bin/7zz)
+2024-03-20 13:11:47,799::INFO::[SABnzbd:475] 7za binary version 23.01
+2024-03-20 13:11:47,801::INFO::[SABnzbd:481] nice binary... found (/bin/nice)
+2024-03-20 13:11:47,817::INFO::[SABnzbd:485] ionice binary... found (/bin/ionice)
+2024-03-20 13:11:47,832::INFO::[SABnzbd:1399] Starting web-interface on :::8080
+2024-03-20 13:11:47,838::INFO::[_cplogging:213] [20/Mar/2024:13:11:47] ENGINE Bus STARTING
+2024-03-20 13:11:53,077::INFO::[_cplogging:213] [20/Mar/2024:13:11:53] ENGINE Serving on http://:::8080
+2024-03-20 13:11:53,079::INFO::[_cplogging:213] [20/Mar/2024:13:11:53] ENGINE Bus STARTED
+2024-03-20 13:11:53,081::INFO::[SABnzbd:1444] Starting SABnzbd.py-4.2.3
+2024-03-20 13:11:53,126::INFO::[dirscanner:111] Dirscanner starting up
+2024-03-20 13:11:53,130::INFO::[panic:239] Launching browser with http://127.0.0.1:8080/sabnzbd
+2024-03-20 13:11:53,147::INFO::[notifier:142] Sending notification: SABnzbd - SABnzbd 4.2.3 started (type=startup, job_cat=None)
+2024-03-20 13:11:53,208::INFO::[zconfig:61] No bonjour/zeroconf support installed
+2024-03-20 13:11:53,212::INFO::[ssdp:108] Serving SSDP on 172.18.0.11 as SABnzbd
+2024-03-20 13:11:53,278::INFO::[database:576] Scheduled history purge
+2024-03-20 13:13:34,880::INFO::[notifier:142] Sending notification: Warning - Signal 15 caught, saving and exiting... (type=warning, job_cat=None)
+2024-03-20 13:13:34,878::WARNING::[__init__:199] Signal 15 caught, saving and exiting...
+2024-03-20 13:13:34,881::INFO::[__init__:436] [N/A] Performing SABnzbd shutdown
+2024-03-20 13:13:34,882::INFO::[__init__:353] SABnzbd shutting down...
+2024-03-20 13:13:34,883::INFO::[ssdp:102] Stopping SSDP
+2024-03-20 13:13:34,884::INFO::[directunpacker:561] Aborting all DirectUnpackers
+2024-03-20 13:13:34,894::INFO::[notifier:142] Sending notification: SABnzbd - Shutting down (type=startup, job_cat=None)
+2024-03-20 13:13:34,895::INFO::[downloader:640] Shutting down
+2024-03-20 13:13:34,900::INFO::[nzbqueue:230] Saving queue
+2024-03-20 13:13:34,903::INFO::[postproc:138] Saving postproc queue
+2024-03-20 13:13:34,911::INFO::[__init__:422] All processes stopped
+2024-03-20 13:13:34,913::INFO::[_cplogging:213] [20/Mar/2024:13:13:34] ENGINE Bus STOPPING
+2024-03-20 13:13:35,380::INFO::[_cplogging:213] [20/Mar/2024:13:13:35] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('::', 8080)) shut down
+2024-03-20 13:13:35,381::INFO::[_cplogging:213] [20/Mar/2024:13:13:35] ENGINE Bus STOPPED
+2024-03-20 13:13:35,382::INFO::[_cplogging:213] [20/Mar/2024:13:13:35] ENGINE Bus EXITING
+2024-03-20 13:13:35,382::INFO::[_cplogging:213] [20/Mar/2024:13:13:35] ENGINE Bus EXITED
+2024-03-20 13:13:35,383::INFO::[notifier:142] Sending notification: SABnzbd - SABnzbd shutdown finished (type=startup, job_cat=None)
+2024-03-20 13:13:35,384::INFO::[SABnzbd:1583] Leaving SABnzbd
+2024-03-20 13:14:23,543::INFO::[SABnzbd:1144] --------------------------------
+2024-03-20 13:14:23,545::INFO::[SABnzbd:1145] SABnzbd.py-4.2.3
+2024-03-20 13:14:23,553::INFO::[SABnzbd:1155] Commit = e7e06dea419a03bfe179af64b7a69398f652a7b9
+2024-03-20 13:14:23,555::INFO::[SABnzbd:1157] Full executable path = /app/sabnzbd/SABnzbd.py
+2024-03-20 13:14:23,556::INFO::[SABnzbd:1158] Arguments = "/app/sabnzbd/SABnzbd.py" "--config-file" "/config" "--server" "::"
+2024-03-20 13:14:23,558::INFO::[SABnzbd:1159] Python-version = 3.11.8 (main, Feb 19 2024, 17:01:17) [GCC 13.2.1 20231014]
+2024-03-20 13:14:23,560::INFO::[SABnzbd:1160] Dockerized = True
+2024-03-20 13:14:23,561::INFO::[SABnzbd:1161] CPU architecture = aarch64
+2024-03-20 13:14:23,580::INFO::[SABnzbd:1164] Platform = posix - Linux-5.15.0-1048-raspi-aarch64-with
+2024-03-20 13:14:23,593::INFO::[SABnzbd:1170] Preferred encoding = UTF-8
+2024-03-20 13:14:23,595::INFO::[SABnzbd:1192] SSL version = OpenSSL 3.1.4 24 Oct 2023
+2024-03-20 13:14:23,601::INFO::[SABnzbd:1201] Certifi version = 2024.02.02
+2024-03-20 13:14:23,613::INFO::[SABnzbd:1202] Loaded additional certificates from /lsiopy/lib/python3.11/site-packages/certifi/cacert.pem
+2024-03-20 13:14:23,615::INFO::[SABnzbd:1212] Using INI file /config/sabnzbd.ini
+2024-03-20 13:14:23,620::INFO::[postproc:143] Loading postproc queue
+2024-03-20 13:14:23,625::INFO::[scheduler:190] Scheduling RSS interval task every 60 min (delay=41)
+2024-03-20 13:14:23,631::INFO::[scheduler:200] Scheduling version check in 10 minutes and daily at 1:26
+2024-03-20 13:14:23,634::INFO::[scheduler:225] Setting schedule for midnight BPS reset
+2024-03-20 13:14:23,642::INFO::[scheduler:234] Setting schedule for midnight server expiration check
+2024-03-20 13:14:23,644::INFO::[scheduler:243] Setting schedule for server quota check
+2024-03-20 13:14:23,656::INFO::[__init__:323] All processes started
+2024-03-20 13:14:23,659::INFO::[SABnzbd:338] Template location for Glitter is /app/sabnzbd/interfaces/Glitter
+2024-03-20 13:14:23,662::INFO::[SABnzbd:338] Template location for Config is /app/sabnzbd/interfaces/Config
+2024-03-20 13:14:23,669::INFO::[misc:1230] [N/A] Running external command: ['/usr/bin/unrar']
+2024-03-20 13:14:23,705::INFO::[misc:1230] [N/A] Running external command: ['/usr/bin/7zz']
+2024-03-20 13:14:23,727::INFO::[misc:1230] [N/A] Running external command: ['/usr/local/bin/par2', '-V']
+2024-03-20 13:14:23,754::INFO::[SABnzbd:423] SABCTools module (v8.1.0)... found!
+2024-03-20 13:14:23,757::INFO::[SABnzbd:424] SABCTools module is using SIMD set: NEON
+2024-03-20 13:14:23,760::INFO::[SABnzbd:425] SABCTools module is linked to OpenSSL: True
+2024-03-20 13:14:23,781::INFO::[SABnzbd:445] Cryptography module (v41.0.7)... found!
+2024-03-20 13:14:23,784::INFO::[SABnzbd:451] par2 binary... found (/usr/local/bin/par2)
+2024-03-20 13:14:23,788::INFO::[SABnzbd:458] UNRAR binary... found (/usr/bin/unrar)
+2024-03-20 13:14:23,790::INFO::[SABnzbd:466] UNRAR binary version 7.00
+2024-03-20 13:14:23,792::INFO::[SABnzbd:473] 7za binary... found (/usr/bin/7zz)
+2024-03-20 13:14:23,795::INFO::[SABnzbd:475] 7za binary version 23.01
+2024-03-20 13:14:23,805::INFO::[SABnzbd:481] nice binary... found (/bin/nice)
+2024-03-20 13:14:23,811::INFO::[SABnzbd:485] ionice binary... found (/bin/ionice)
+2024-03-20 13:14:23,848::INFO::[SABnzbd:1399] Starting web-interface on :::8080
+2024-03-20 13:14:23,860::INFO::[_cplogging:213] [20/Mar/2024:13:14:23] ENGINE Bus STARTING
+2024-03-20 13:14:29,150::INFO::[_cplogging:213] [20/Mar/2024:13:14:29] ENGINE Serving on http://:::8080
+2024-03-20 13:14:29,153::INFO::[_cplogging:213] [20/Mar/2024:13:14:29] ENGINE Bus STARTED
+2024-03-20 13:14:29,155::INFO::[SABnzbd:1444] Starting SABnzbd.py-4.2.3
+2024-03-20 13:14:29,194::INFO::[dirscanner:111] Dirscanner starting up
+2024-03-20 13:14:29,198::INFO::[panic:239] Launching browser with http://127.0.0.1:8080/sabnzbd
+2024-03-20 13:14:29,218::INFO::[notifier:142] Sending notification: SABnzbd - SABnzbd 4.2.3 started (type=startup, job_cat=None)
+2024-03-20 13:14:29,229::INFO::[zconfig:61] No bonjour/zeroconf support installed
+2024-03-20 13:14:29,251::INFO::[ssdp:108] Serving SSDP on 172.18.0.9 as SABnzbd
+2024-03-20 13:14:29,266::INFO::[database:576] Scheduled history purge
+2024-03-21 22:01:50,345::INFO::[SABnzbd:1144] --------------------------------
+2024-03-21 22:01:50,365::INFO::[SABnzbd:1145] SABnzbd.py-4.2.3
+2024-03-21 22:01:50,367::INFO::[SABnzbd:1155] Commit = e7e06dea419a03bfe179af64b7a69398f652a7b9
+2024-03-21 22:01:50,370::INFO::[SABnzbd:1157] Full executable path = /app/sabnzbd/SABnzbd.py
+2024-03-21 22:01:50,379::INFO::[SABnzbd:1158] Arguments = "/app/sabnzbd/SABnzbd.py" "--config-file" "/config" "--server" "::"
+2024-03-21 22:01:50,380::INFO::[SABnzbd:1159] Python-version = 3.11.8 (main, Feb 19 2024, 17:01:17) [GCC 13.2.1 20231014]
+2024-03-21 22:01:50,382::INFO::[SABnzbd:1160] Dockerized = True
+2024-03-21 22:01:50,386::INFO::[SABnzbd:1161] CPU architecture = aarch64
+2024-03-21 22:01:50,416::INFO::[SABnzbd:1164] Platform = posix - Linux-5.15.0-1049-raspi-aarch64-with
+2024-03-21 22:01:50,417::INFO::[SABnzbd:1170] Preferred encoding = UTF-8
+2024-03-21 22:01:50,418::INFO::[SABnzbd:1192] SSL version = OpenSSL 3.1.4 24 Oct 2023
+2024-03-21 22:01:50,546::INFO::[SABnzbd:1201] Certifi version = 2024.02.02
+2024-03-21 22:01:50,548::INFO::[SABnzbd:1202] Loaded additional certificates from /lsiopy/lib/python3.11/site-packages/certifi/cacert.pem
+2024-03-21 22:01:50,549::INFO::[SABnzbd:1212] Using INI file /config/sabnzbd.ini
+2024-03-21 22:01:50,573::INFO::[postproc:143] Loading postproc queue
+2024-03-21 22:01:50,608::INFO::[scheduler:190] Scheduling RSS interval task every 60 min (delay=16)
+2024-03-21 22:01:50,611::INFO::[scheduler:200] Scheduling version check in 10 minutes and daily at 4:38
+2024-03-21 22:01:50,613::INFO::[scheduler:225] Setting schedule for midnight BPS reset
+2024-03-21 22:01:50,614::INFO::[scheduler:234] Setting schedule for midnight server expiration check
+2024-03-21 22:01:50,628::INFO::[scheduler:243] Setting schedule for server quota check
+2024-03-21 22:01:50,636::INFO::[__init__:323] All processes started
+2024-03-21 22:01:50,649::INFO::[SABnzbd:338] Template location for Glitter is /app/sabnzbd/interfaces/Glitter
+2024-03-21 22:01:50,653::INFO::[SABnzbd:338] Template location for Config is /app/sabnzbd/interfaces/Config
+2024-03-21 22:01:50,663::INFO::[misc:1230] [N/A] Running external command: ['/usr/bin/unrar']
+2024-03-21 22:01:50,758::INFO::[misc:1230] [N/A] Running external command: ['/usr/bin/7zz']
+2024-03-21 22:01:51,048::INFO::[misc:1230] [N/A] Running external command: ['/usr/local/bin/par2', '-V']
+2024-03-21 22:01:51,106::INFO::[SABnzbd:423] SABCTools module (v8.1.0)... found!
+2024-03-21 22:01:51,108::INFO::[SABnzbd:424] SABCTools module is using SIMD set: NEON
+2024-03-21 22:01:51,110::INFO::[SABnzbd:425] SABCTools module is linked to OpenSSL: True
+2024-03-21 22:01:51,131::INFO::[SABnzbd:445] Cryptography module (v41.0.7)... found!
+2024-03-21 22:01:51,132::INFO::[SABnzbd:451] par2 binary... found (/usr/local/bin/par2)
+2024-03-21 22:01:51,133::INFO::[SABnzbd:458] UNRAR binary... found (/usr/bin/unrar)
+2024-03-21 22:01:51,133::INFO::[SABnzbd:466] UNRAR binary version 7.00
+2024-03-21 22:01:51,134::INFO::[SABnzbd:473] 7za binary... found (/usr/bin/7zz)
+2024-03-21 22:01:51,135::INFO::[SABnzbd:475] 7za binary version 23.01
+2024-03-21 22:01:51,144::INFO::[SABnzbd:481] nice binary... found (/bin/nice)
+2024-03-21 22:01:51,144::INFO::[SABnzbd:485] ionice binary... found (/bin/ionice)
+2024-03-21 22:01:51,150::INFO::[SABnzbd:1399] Starting web-interface on :::8080
+2024-03-21 22:01:51,157::INFO::[_cplogging:213] [21/Mar/2024:22:01:51] ENGINE Bus STARTING
+2024-03-21 22:01:56,352::INFO::[_cplogging:213] [21/Mar/2024:22:01:56] ENGINE Serving on http://:::8080
+2024-03-21 22:01:56,353::INFO::[_cplogging:213] [21/Mar/2024:22:01:56] ENGINE Bus STARTED
+2024-03-21 22:01:56,354::INFO::[SABnzbd:1444] Starting SABnzbd.py-4.2.3
+2024-03-21 22:01:56,400::INFO::[dirscanner:111] Dirscanner starting up
+2024-03-21 22:01:56,407::INFO::[panic:239] Launching browser with http://127.0.0.1:8080/sabnzbd
+2024-03-21 22:01:56,451::INFO::[database:576] Scheduled history purge
+2024-03-21 22:01:56,484::INFO::[notifier:142] Sending notification: SABnzbd - SABnzbd 4.2.3 started (type=startup, job_cat=None)
+2024-03-21 22:01:56,486::INFO::[zconfig:61] No bonjour/zeroconf support installed
+2024-03-21 22:01:56,509::INFO::[ssdp:108] Serving SSDP on 172.18.0.10 as SABnzbd
+2024-05-02 04:38:00,210::INFO::[notifier:142] Sending notification: Update Available! - SABnzbd 4.3.0 (type=other, job_cat=None)
+2024-05-03 04:38:00,216::INFO::[notifier:142] Sending notification: Update Available! - SABnzbd 4.3.0 (type=other, job_cat=None)
+2024-05-04 04:38:00,209::INFO::[notifier:142] Sending notification: Update Available! - SABnzbd 4.3.0 (type=other, job_cat=None)
+2024-05-05 04:38:00,303::INFO::[notifier:142] Sending notification: Update Available! - SABnzbd 4.3.1 (type=other, job_cat=None)
+2024-05-06 04:38:00,343::INFO::[notifier:142] Sending notification: Update Available! - SABnzbd 4.3.1 (type=other, job_cat=None)
+2024-05-07 04:38:00,191::INFO::[notifier:142] Sending notification: Update Available! - SABnzbd 4.3.1 (type=other, job_cat=None)
+2024-05-08 04:38:00,254::INFO::[notifier:142] Sending notification: Update Available! - SABnzbd 4.3.1 (type=other, job_cat=None)
+2024-05-09 04:38:00,184::INFO::[notifier:142] Sending notification: Update Available! - SABnzbd 4.3.1 (type=other, job_cat=None)
+2024-05-10 04:38:00,212::INFO::[notifier:142] Sending notification: Update Available! - SABnzbd 4.3.1 (type=other, job_cat=None)
+2024-05-11 04:38:00,227::INFO::[notifier:142] Sending notification: Update Available! - SABnzbd 4.3.1 (type=other, job_cat=None)
+2024-05-11 21:25:30,863::INFO::[SABnzbd:1144] --------------------------------
+2024-05-11 21:25:30,876::INFO::[SABnzbd:1145] SABnzbd.py-4.2.3
+2024-05-11 21:25:30,889::INFO::[SABnzbd:1155] Commit = e7e06dea419a03bfe179af64b7a69398f652a7b9
+2024-05-11 21:25:30,903::INFO::[SABnzbd:1157] Full executable path = /app/sabnzbd/SABnzbd.py
+2024-05-11 21:25:30,909::INFO::[SABnzbd:1158] Arguments = "/app/sabnzbd/SABnzbd.py" "--config-file" "/config" "--server" "::"
+2024-05-11 21:25:30,917::INFO::[SABnzbd:1159] Python-version = 3.11.8 (main, Feb 19 2024, 17:01:17) [GCC 13.2.1 20231014]
+2024-05-11 21:25:30,924::INFO::[SABnzbd:1160] Dockerized = True
+2024-05-11 21:25:30,932::INFO::[SABnzbd:1161] CPU architecture = aarch64
+2024-05-11 21:25:30,989::INFO::[SABnzbd:1164] Platform = posix - Linux-5.15.0-1053-raspi-aarch64-with
+2024-05-11 21:25:30,997::INFO::[SABnzbd:1170] Preferred encoding = UTF-8
+2024-05-11 21:25:31,010::INFO::[SABnzbd:1192] SSL version = OpenSSL 3.1.4 24 Oct 2023
+2024-05-11 21:25:31,031::INFO::[SABnzbd:1201] Certifi version = 2024.02.02
+2024-05-11 21:25:31,034::INFO::[SABnzbd:1202] Loaded additional certificates from /lsiopy/lib/python3.11/site-packages/certifi/cacert.pem
+2024-05-11 21:25:31,041::INFO::[SABnzbd:1212] Using INI file /config/sabnzbd.ini
+2024-05-11 21:25:31,077::INFO::[postproc:143] Loading postproc queue
+2024-05-11 21:25:31,086::INFO::[scheduler:190] Scheduling RSS interval task every 60 min (delay=5)
+2024-05-11 21:25:31,089::INFO::[scheduler:200] Scheduling version check in 10 minutes and daily at 19:58
+2024-05-11 21:25:31,097::INFO::[scheduler:225] Setting schedule for midnight BPS reset
+2024-05-11 21:25:31,105::INFO::[scheduler:234] Setting schedule for midnight server expiration check
+2024-05-11 21:25:31,107::INFO::[scheduler:243] Setting schedule for server quota check
+2024-05-11 21:25:31,117::INFO::[__init__:323] All processes started
+2024-05-11 21:25:31,129::INFO::[SABnzbd:338] Template location for Glitter is /app/sabnzbd/interfaces/Glitter
+2024-05-11 21:25:31,139::INFO::[SABnzbd:338] Template location for Config is /app/sabnzbd/interfaces/Config
+2024-05-11 21:25:31,152::INFO::[misc:1230] [N/A] Running external command: ['/usr/bin/unrar']
+2024-05-11 21:25:31,230::INFO::[misc:1230] [N/A] Running external command: ['/usr/bin/7zz']
+2024-05-11 21:25:31,396::INFO::[misc:1230] [N/A] Running external command: ['/usr/local/bin/par2', '-V']
+2024-05-11 21:25:31,433::INFO::[SABnzbd:423] SABCTools module (v8.1.0)... found!
+2024-05-11 21:25:31,434::INFO::[SABnzbd:424] SABCTools module is using SIMD set: NEON
+2024-05-11 21:25:31,435::INFO::[SABnzbd:425] SABCTools module is linked to OpenSSL: True
+2024-05-11 21:25:31,436::INFO::[SABnzbd:445] Cryptography module (v41.0.7)... found!
+2024-05-11 21:25:31,438::INFO::[SABnzbd:451] par2 binary... found (/usr/local/bin/par2)
+2024-05-11 21:25:31,441::INFO::[SABnzbd:458] UNRAR binary... found (/usr/bin/unrar)
+2024-05-11 21:25:31,449::INFO::[SABnzbd:466] UNRAR binary version 7.00
+2024-05-11 21:25:31,451::INFO::[SABnzbd:473] 7za binary... found (/usr/bin/7zz)
+2024-05-11 21:25:31,452::INFO::[SABnzbd:475] 7za binary version 23.01
+2024-05-11 21:25:31,453::INFO::[SABnzbd:481] nice binary... found (/bin/nice)
+2024-05-11 21:25:31,455::INFO::[SABnzbd:485] ionice binary... found (/bin/ionice)
+2024-05-11 21:25:31,458::INFO::[SABnzbd:1399] Starting web-interface on :::8080
+2024-05-11 21:25:31,460::INFO::[_cplogging:213] [11/May/2024:21:25:31] ENGINE Bus STARTING
+2024-05-11 21:25:36,668::INFO::[_cplogging:213] [11/May/2024:21:25:36] ENGINE Serving on http://:::8080
+2024-05-11 21:25:36,683::INFO::[_cplogging:213] [11/May/2024:21:25:36] ENGINE Bus STARTED
+2024-05-11 21:25:36,684::INFO::[SABnzbd:1444] Starting SABnzbd.py-4.2.3
+2024-05-11 21:25:36,709::INFO::[dirscanner:111] Dirscanner starting up
+2024-05-11 21:25:36,719::INFO::[panic:239] Launching browser with http://127.0.0.1:8080/sabnzbd
+2024-05-11 21:25:36,743::INFO::[notifier:142] Sending notification: SABnzbd - SABnzbd 4.2.3 started (type=startup, job_cat=None)
+2024-05-11 21:25:36,780::INFO::[database:576] Scheduled history purge
+2024-05-11 21:25:36,794::INFO::[zconfig:61] No bonjour/zeroconf support installed
+2024-05-11 21:25:36,798::INFO::[ssdp:108] Serving SSDP on 172.18.0.5 as SABnzbd
+2024-05-11 22:33:37,514::INFO::[notifier:142] Sending notification: Update Available! - SABnzbd 4.3.1 (type=other, job_cat=None)
+2024-05-12 19:58:00,185::INFO::[notifier:142] Sending notification: Update Available! - SABnzbd 4.3.1 (type=other, job_cat=None)
+2024-05-13 19:58:00,194::INFO::[notifier:142] Sending notification: Update Available! - SABnzbd 4.3.1 (type=other, job_cat=None)
+2024-05-14 19:58:00,216::INFO::[notifier:142] Sending notification: Update Available! - SABnzbd 4.3.1 (type=other, job_cat=None)

@@ -10,8 +10,9 @@ services:
       - UMASK=002
       - TZ=Europe/Amsterdam
     volumes:
-      - /home/user/ezarr/config/sonarr-config:/config
-      - /home/user/ezarr/data:/data
+      - /srv/ezarr/config/sonarr-config:/config
+      - /srv/ezarr/data:/data
+      - /data/media/downloads:/downloads
     ports:
       - "8989:8989"
     restart: unless-stopped
@@ -25,8 +26,9 @@ services:
       - UMASK=002
       - TZ=Europe/Amsterdam
     volumes:
-      - /home/user/ezarr/config/radarr-config:/config
-      - /home/user/ezarr/data:/data
+      - /srv/ezarr/config/radarr-config:/config
+      - /srv/ezarr/data:/data
+      - /data/media/downloads:/downloads
     ports:
       - "7878:7878"
     restart: unless-stopped
@@ -39,8 +41,9 @@ services:
       - PGID=13000
       - TZ=Europe/Amsterdam
     volumes:
-      - /home/user/ezarr/config/bazarr-config:/config
-      - /home/user/ezarr/data/media:/media
+      - /srv/ezarr/config/bazarr-config:/config
+      - /srv/ezarr/data/media:/media
+      - /data/media/downloads:/downloads
     ports:
       - "6767:6767"
     restart: unless-stopped
@@ -54,8 +57,9 @@ services:
       - UMASK=002
       - TZ=Europe/Amsterdam
     volumes:
-      - /home/user/ezarr/config/lidarr-config:/config
-      - /home/user/ezarr/data:/data
+      - /srv/ezarr/config/lidarr-config:/config
+      - /srv/ezarr/data:/data
+      - /data/media/downloads:/downloads
     ports:
       - "8686:8686"
     restart: unless-stopped
@@ -69,8 +73,9 @@ services:
       - UMASK=002
       - TZ=Europe/Amsterdam
     volumes:
-      - /home/user/ezarr/config/readarr-config:/config
-      - /home/user/ezarr/data:/data
+      - /srv/ezarr/config/readarr-config:/config
+      - /srv/ezarr/data:/data
+      - /data/media/downloads:/downloads
     ports:
       - "8787:8787"
     restart: unless-stopped
@@ -83,8 +88,9 @@ services:
       - PGID=13000
       - UMASK=002
     volumes:
-      - /home/user/ezarr/config/mylar-config:/config
-      - /home/user/ezarr/data:/data
+      - /srv/ezarr/config/mylar-config:/config
+      - /srv/ezarr/data:/data
+      - /data/media/downloads:/downloads
     ports:
       - "8090:8090"
     restart: unless-stopped
@@ -96,10 +102,11 @@ services:
       - AUDIOBOOKSHELF_UID=13009
       - AUDIOBOOKSHELF_GID=13000
     volumes:
-      - /home/user/ezarr/config/audiobookshelf:/config
-      - /home/user/ezarr/data/audiobooks:/audiobooks
-      - /home/user/ezarr/data/podcasts:/podcasts
-      - /home/user/ezarr/data/metadata:/metadata
+      - /srv/ezarr/config/audiobookshelf:/config
+      - /srv/ezarr/data/audiobooks:/audiobooks
+      - /srv/ezarr/data/podcasts:/podcasts 
+      - /srv/ezarr/data/metadata:/metadata
+      - /data/media/downloads:/downloads
     ports:
       - "13378:80"
     restart: unless-stopped
@@ -113,39 +120,40 @@ services:
       - UMASK=002
       - TZ=Europe/Amsterdam
     volumes:
-      - /home/user/ezarr/config/prowlarr-config:/config
+      - /srv/ezarr/config/prowlarr-config:/config
+      - /data/media/downloads:/downloads
     ports:
       - "9696:9696"
     restart: unless-stopped
 
-  plex:
-    image: lscr.io/linuxserver/plex:latest
-    container_name: plex
-    network_mode: host
-    environment:
-      - PUID=13010
-      - PGID=13000
-      - VERSION=docker
-      - PLEX_CLAIM=
-    volumes:
-      - /home/user/ezarr/config/plex-config:/config
-      - /home/user/ezarr/data/media:/media
-    restart: unless-stopped
+      #plex:
+      #image: lscr.io/linuxserver/plex:latest
+      #container_name: plex
+      #network_mode: host
+      #environment:
+      #- PUID=13010
+      #- PGID=13000
+      #- VERSION=docker
+      #- PLEX_CLAIM=
+      #volumes:
+      #- /home/user/ezarr/config/plex-config:/config
+      #- /home/user/ezarr/data/media:/media
+      #restart: unless-stopped
 
-  tautulli:
-    image: lscr.io/linuxserver/tautulli:latest
-    container_name: tautulli
-    depends_on:
-      - plex
-    environment:
-      - PUID=${UID}
-      - PGID=13000
-      - TZ=Europe/Amsterdam
-    volumes:
-      - /home/user/ezarr/config/tautulli-config:/config
-    ports:
-      - "8181:8181"
-    restart: unless-stopped
+      #tautulli:
+      #image: lscr.io/linuxserver/tautulli:latest
+      #container_name: tautulli
+      #depends_on:
+      #- plex
+      #environment:
+      #- PUID=${UID}
+      #- PGID=13000
+      #- TZ=Europe/Amsterdam
+      #volumes:
+      #- /home/user/ezarr/config/tautulli-config:/config
+      #ports:
+      #- "8181:8181"
+      #restart: unless-stopped
 
   jellyfin:
     image: lscr.io/linuxserver/jellyfin:latest
@@ -156,8 +164,9 @@ services:
       - UMASK=002
       - TZ=Europe/Amsterdam
     volumes:
-      - /home/user/ezarr/config/jellyfin-config:/config
-      - /home/user/ezarr/data/media:/data
+      - /srv/ezarr/config/jellyfin-config:/config
+      - /srv/ezarr/data/media:/data
+      - /data/media/downloads:/downloads
     ports:
       - "8096:8096"
     restart: unless-stopped
@@ -172,8 +181,9 @@ services:
       - TZ=Europe/Amsterdam
       - WEBUI_PORT=8080
     volumes:
-      - /home/user/ezarr/config/qbittorrent-config:/config
-      - /home/user/ezarr/data/torrents:/data/torrents
+      - /srv/ezarr/config/qbittorrent-config:/config
+      - /srv/ezarr/data/torrents:/data/torrents
+      - /data/media/downloads:/downloads
     ports:
       - "8080:8080"
       - "6881:6881"
@@ -189,8 +199,9 @@ services:
       - UMASK=002
       - TZ=Europe/Amsterdam
     volumes:
-      - /home/user/ezarr/config/sabnzbd-config:/config
-      - /home/user/ezarr/data/usenet:/data/usenet
+      - /srv/ezarr/config/sabnzbd-config:/config
+      - /srv/ezarr/data/usenet:/data/usenet
+      - /data/media/downloads:/downloads
     ports:
       - "8081:8080"
     restart: unless-stopped

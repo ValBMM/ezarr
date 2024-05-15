@@ -1,0 +1,2 @@
+2024-05-12 01:05:23|WARNING |apscheduler.executors.default   |Run time of job "Update Release Info (trigger: interval[3:00:00], next run at: 2024-05-12 02:58:22 CEST)" was missed by 1:07:00.991602|
+2024-05-12 20:47:05|INFO    |root                            |BAZARR Running cache maintenance|
